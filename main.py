@@ -2,7 +2,7 @@ import cv2
 import djitellopy
 from djitellopy import Tello
 from ultralytics import YOLO
-from ultralytics.yolo.engine.results import Results
+from ultralytics.engine.results import Results
 
 model = YOLO('yolov8n.pt')
 
